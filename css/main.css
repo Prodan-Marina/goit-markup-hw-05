@@ -127,7 +127,10 @@
   margin-right: auto;
 }
 
-.skill-list .item::before {
+.skill-list .item::
+
+
+{
   position: absolute;
   display: inline-block;
   content: '';
@@ -256,8 +259,8 @@ border-radius: 4px;
 margin-top: auto;
 margin-bottom: auto;
 transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list .company-link:hover,
@@ -296,8 +299,9 @@ transition-property: all;
   border-top-left-radius: 5px;
   overflow: hidden;
   transition-property: all;
-  transition-duration: 250ms;
+  transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .portfolio-list .item:hover {box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),

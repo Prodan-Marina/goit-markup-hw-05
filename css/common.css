@@ -130,6 +130,8 @@ border-radius:2px}
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+  
 }
 /* .contact-nav .link {fill: var(--primary-text-color);} */
 
@@ -154,7 +156,7 @@ border-radius:2px}
 
 /* Кнопки */
 .button {
-  display: inline-block;
+  display: inline-flex;
   border-radius: 4px;
   padding: 10px 32px;
   /* min-width: 200px; */
@@ -170,6 +172,10 @@ border-radius:2px}
   line-height: 1.62;
   text-decoration: none;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.primary {
   background-color: var(--accent-color);
@@ -185,6 +191,20 @@ background-color: var(--bg-grey-color);}
   text-align: center;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
+
+.button.third {background-color: var(--accent-color);
+  color: var(--primary-white-color);}
+
+.button.third::after{
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../img/icon-send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+} 
 
 
 /* Футер */
@@ -254,6 +274,9 @@ background-color: var(--bg-grey-color);}
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-netwok .link:nth-child(4n) {
