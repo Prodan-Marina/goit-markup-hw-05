@@ -107,76 +107,42 @@
 /* Чем мы занимаемся */
 .skill-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
-/* .skill-list .item {
-  /* width: 370px;
+.skill-list .item {
   margin-right: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
   position: relative;
   display: flex;
   justify-content: center;
-  cursor: pointer; */
-} */
-.skill-list .item:before {
-  position: absolute;
-  display: inline-block;
-  content: '';
-  background-color: rgba(47, 48, 58, 0.8);
-  width: 100%;
-  height: 70px;
-  bottom: 0;}
+  cursor: pointer;
+}
 
 .skill-list .item:nth-child(3n) {
   margin-right: auto;
 }
 
-/* .skill-list .item::
-
-{
+.skill-list .item::before{
   position: absolute;
   display: inline-block;
-  content: '';
-  background-color: rgba(47, 48, 58, 0.8);
-  width: 100%;
-  height: 70px;
-  bottom: 0;} */
-
-
-
-/* .skill-list .title {
-  bottom: 9%;
-  margin: 0;
-  color: var(--primary-white-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  position: absolute;
-  display: inline-block;
-  content: '';
+  content: "";
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   height: 70px;
   bottom: 0;
-  text-transform: uppercase; */
 }
-.skill-list .title{    
+
+.skill-list .title {
   position: absolute;
   bottom: 9%;
-  /* left: 0; */
   margin: 0;
   color: var(--primary-white-color);
-  /* background-color: black; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-  text-transform: uppercase;}
+  text-transform: uppercase;  
+}
+
 /* Наша команда */
 .team-list {
   display: flex;
